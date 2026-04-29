@@ -2,8 +2,11 @@
   "manifest_version": 3,
   "name": "Overwrite Website",
   "version": "1.0",
-  "description": "クリックすると挨拶するシンプルな拡張機能です。",
-  "action": {
-    "default_popup": "popup.html"
-  }
+  "description": "スタイルを変更します",
+  "content_scripts": [
+    {
+      "matches": ["https://google.com/*"],
+      "css": ["style.css"]
+    }
+  ]
 }

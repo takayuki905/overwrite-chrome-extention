@@ -1,0 +1,10 @@
+/* 例: 背景色を強制的にダークモードっぽくし、文字を大きくする */
+body {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+/* 例: 特定の邪魔な要素（広告エリアなど）を非表示にする */
+.annoying-banner {
+  display: none !important;
+}
