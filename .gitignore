@@ -1,0 +1,32 @@
+# 依存関係（npmでインストールしたパッケージ群）
+node_modules/
+npm-debug.log
+npm-debug.log.*
+package-lock.json
+
+# ビルド出力ディレクトリ（自動生成されるためGit管理から外す）
+dist/
+
+# OSが自動生成する不要なファイル
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# エディタやIDEの設定ファイル（個人の環境設定なので外す）
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# 拡張機能のパッケージ化ファイル（ストア登録時などに生成するもの）
+*.zip
+*.crx
+
+# 環境変数ファイル（APIキーなどを扱う場合）
+.env
+.env.local
