@@ -5,7 +5,7 @@
   "description": "スタイルを変更します",
   "content_scripts": [
     {
-      "matches": ["https://google.com/*"],
+      "matches": ["https://gemini.google.com/*"],
       "css": ["style.css"]
     }
   ]
